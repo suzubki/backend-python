@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+django = "*"
+djangorestframework = "*"
+asgiref = "*"
+distlib = "*"
+filelock = "*"
+sqlparse = "*"
+tzdata = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
